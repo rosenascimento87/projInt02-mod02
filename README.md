@@ -19,7 +19,7 @@ Tecnologias utilizadas:
 
 ```text
 
-petsumiu/
+alertapet/
 ├── backend/              # API Node.js
 │   ├── controllers/      # Lógica das rotas
 │   ├── models/           # Schemas do MongoDB
@@ -48,7 +48,7 @@ Clone o repositório
 
 ```bash
 git clone [URL_DO_REPOSITORIO]
-cd petsumiu
+cd alertapet
 Configure as variáveis de ambiente
 Crie um arquivo .env na raiz com:```
 
@@ -56,7 +56,7 @@ Crie um arquivo .env na raiz com:```
 # MongoDB
 MONGO_USER=admin
 MONGO_PASS=senhaSegura123
-MONGO_DATA=petsumiu_db
+MONGO_DATA=alertapet_db
 MONGO_URL=mongodb://${MONGO_USER}:${MONGO_PASS}@mongodb:27017/${MONGO_DATA}?authSource=admin
 
 # Node.js
@@ -127,7 +127,7 @@ backend/.env (credenciais locais)
 
 
 👉 **Teste agora mesmo a aplicação:**  
-🌐 [Clique aqui para acessar](http://rosepael.com:59998)
+🌐 [Clique aqui para acessar](http://rosepael.com)
 
 
 Contribua com sugestões ou melhorias! 💡  
